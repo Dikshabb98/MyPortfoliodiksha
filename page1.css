@@ -1,0 +1,159 @@
+body {
+
+    background: radial-gradient(97.43% 192.67% at 99.24% 97.46%,
+            #37A5BD 7.29%, rgba(204, 222, 221, 0) 100%);
+
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+}
+
+.h3 {
+    position: absolute;
+    width: 274px;
+    height: 44px;
+    left: 144.45px;
+    top: 83.55px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 46px;
+
+    color: #000000;
+}
+
+.p {
+    position: absolute;
+    width: 552px;
+    height: 365px;
+    left: 61px;
+    top: 324px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    
+    color: #000000;
+}
+
+.button1 {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 650px;
+    top: 84px;
+    border-radius: 15px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 20px;
+    color: #000000;
+}
+
+/* .button1:hover {
+    background-color: #0f5f65
+} */
+
+.button1:active {
+    background-color: #6fb7b4;
+    box-shadow: 0 0 8px #148381;
+
+}
+
+a,
+a:visited {
+
+    color: currentColor;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button2 {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 786.45px;
+    top: 84px;
+border-radius: 15px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+ 
+    color: #000000;
+}
+.button2:active {
+    background-color: #6fb7b4;
+    box-shadow: 0 0 8px #148381;
+
+}
+
+a,
+a:visited {
+
+    color: currentColor;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button3 {
+    position: absolute;
+    width: 100px; 
+    height: 40px;
+    left: 1050px;
+    top: 80px;
+    border-radius: 15px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+   
+    color: #000000;
+}
+.button3:active {
+    background-color: #6fb7b4;
+    box-shadow: 0 0 8px #148381;
+
+}
+
+a,
+a:visited {
+
+    color: currentColor;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button4 {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 1200px;
+    top: 80px;
+    border-radius: 15px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 650;
+    font-size: 20px;
+   
+    color: #000000;
+
+}
+.button4:active {
+    background-color: #6fb7b4;
+    box-shadow: 0 0 8px #148381;
+
+}
+
+a,
+a:visited {
+
+    color: currentColor;
+    display: inline-block;
+    text-decoration: none;
+}
