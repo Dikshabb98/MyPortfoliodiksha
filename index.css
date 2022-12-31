@@ -1,0 +1,54 @@
+body {
+
+    background: radial-gradient(97.43% 192.67% at 99.24% 97.46%,
+            #37A5BD 7.29%, rgba(204, 222, 221, 0) 100%);
+
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 85%;
+    margin: 12px;
+    padding:35px 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-right: 120px;
+}
+.logho{
+    width: 0px;
+    height: 7px;
+    top: auto;
+    cursor: pointer;
+    height: 210px;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: o 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #003832;
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li :hover ::after{
+    width: 100%;
+}
